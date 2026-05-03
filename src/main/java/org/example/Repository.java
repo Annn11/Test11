@@ -7,7 +7,7 @@ public class Repository<T extends Identifiable> {
     public void add(T item) {
         items.add(item);
     }
-    public Optional<T> findByIt(String id) {
+    public Optional<T> findById(String id) {
         return items.stream().filter(item -> item.getId().equals(id)).findFirst();
     }
     public List<T> findAll() {
