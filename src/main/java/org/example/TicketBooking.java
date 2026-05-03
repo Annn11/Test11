@@ -1,6 +1,8 @@
 package org.example;
 
-public class TicketBooking {
+import java.io.Serializable;
+
+public class TicketBooking implements Identifiable {
     private String id;
     private Customer customer;
     private Movie movie;

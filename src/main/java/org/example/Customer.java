@@ -1,5 +1,5 @@
 package org.example;
-public class Customer {
+public class Customer implements Identifiable {
     private String id;
     private String name;
     private String phoneNumber;

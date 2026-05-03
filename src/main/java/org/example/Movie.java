@@ -1,5 +1,5 @@
 package org.example;
-public class Movie {
+public class Movie implements Identifiable {
     String id;
     String name;
 
